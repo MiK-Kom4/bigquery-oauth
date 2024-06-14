@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "bigquery-oauth"
+version = "0.1.0"
+description = ""
+authors = ["Mik-kom4 <androidmikiya9814@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google-api-python-client = "^2.133.0"
+google-auth = "^2.30.0"
+google-auth-oauthlib = "^1.2.0"
+google-auth-httplib2 = "^0.2.0"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.1"
+streamlit = "^1.35.0"
+python-dotenv = "^1.0.1"
+google-cloud-bigquery = "^3.24.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
