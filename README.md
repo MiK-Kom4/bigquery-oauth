@@ -1,5 +1,8 @@
 # bigquery-oauth
 
+## 環境情報の概要
+
+- コールバックURL : ローカルサーバ（http://localhost:8080)
 
 ## 参考文献
 
@@ -20,3 +23,7 @@ OAuthの実装方法について知りたい場合
 [Google API の OAuth 2.0 スコープ  |  Authorization  |  Google for Developers](https://developers.google.com/identity/protocols/oauth2/scopes?hl=ja)
 
 BigQueryに関してより詳細に見たい場合
+
+python-dotenvについて
+
+[python-dotenvを使って環境変数を設定する](https://qiita.com/harukikaneko/items/b004048f8d1eca44cba9)
